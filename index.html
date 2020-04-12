@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <title>spectrum</title>
+  </head>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!--navbar-->
+    <nav>
+      <div class="nav-wrapper black">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="right hide-on-med-and-down">
+          <li><a href="sass.html">about</a></li>
+          <li><a href="badges.html">educational</a></li>
+          <li><a href="collapsible.html">technical talk</a></li>
+          <li><a href="mobile.html">projects</a></li>
+          <li><a href="mobile.html">standards</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--sidenavbar-->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="sass.html">about</a></li>
+      <li><a href="badges.html">educational</a></li>
+      <li><a href="collapsible.html">technical talk</a></li>
+      <li><a href="mobile.html">Mobile</a></li>
+      <li><a href="mobile.html">standards</a></li>
+    </ul>
+
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+      });
+    </script>
+
+    <!--navbar end-->
+    <!--side navbar end-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
